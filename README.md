@@ -12,7 +12,7 @@ For each team, for each game gather the following. These can then be used as fea
     - 4th Down Conversion
     - yards/quarter
     - play formation
-    - num of each play type/quarter
+    - num of each play type
     - type of rush
     - num penalties
     - yards lost to penalties
@@ -25,7 +25,6 @@ For each team, for each game gather the following. These can then be used as fea
     - 2pt conv success rate
 
 - Defensive
-    - points scored on
     - yards allowed/play
     - num sacks
     - interceptions caught
