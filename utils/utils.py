@@ -2,6 +2,7 @@ from dataStructures.Game import Game
 
 def gameToDictionary(game: Game) -> list[dict, dict]:
     teamOneStats = {
+        'game_id': game.gameId,
         'points': game.teamOne.points,
         'number_of_first_downs_q1': game.teamOne.numberOfFirstDowns['q1'],
         'number_of_first_downs_q2': game.teamOne.numberOfFirstDowns['q2'],
@@ -97,6 +98,7 @@ def gameToDictionary(game: Game) -> list[dict, dict]:
 
 
     teamTwoStats = {
+        'game_id': game.gameId,
         'points': game.teamTwo.points,
         'number_of_first_downs_q1': game.teamTwo.numberOfFirstDowns['q1'],
         'number_of_first_downs_q2': game.teamTwo.numberOfFirstDowns['q2'],
